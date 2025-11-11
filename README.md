@@ -1,7 +1,9 @@
 Stachu OS 4.0.0
 
 Latest release : StachuOS 4.0.0 (pre-release version 1)
+
 Last update :
+
 Last GitHub upload : 11/11/25 00:30
 
 Made with
