@@ -1,0 +1,23 @@
+{
+    "version": "4.2.0",
+    "files": {
+        "app_manager.py": 0,
+        "config_read.py": 0
+        "desktop.py": 0,
+        "file_explorer.py": 0,
+        "icon_loader.py": 0
+        "logger.py": 0
+        "login.py": 0
+        "notification_service.py": 0
+        "power.py": 0
+        "recovery.py": 0
+        "root.py": 0
+        "settings.py": 0
+        "setup.py": 0
+        "task_manager.py": 0
+        "terminal.py": 0
+        "update_manager.py": 0
+      
+      
+    }
+}
