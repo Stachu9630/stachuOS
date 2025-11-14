@@ -1,5 +1,5 @@
 {
-    "version": "4.2.0",
+    "version": "4.0.0",
     "files": {
         "app_manager.py": 0,
         "config_read.py": 0
