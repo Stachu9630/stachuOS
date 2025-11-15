@@ -1,15 +1,15 @@
 import requests
 from logger import log
+import os
+def install_update():
+    pass
 
 def download_update():
-    root_url = "https://raw.githubusercontent.com/Stachu9630/StachuOS/main/root.py"
-    response = requests.get(root_url)
-    with open("update_files/root.py", "w") as file:
-        file.write(response.content)
-        file.close()
-    log("update downloaded")
+    log("starting to download update")
+    if not os.path.exists("update_files"):
+        os.mkdir("update_files")
 
-    #place the same as root but for all other ones
+
 
 
 
@@ -34,3 +34,5 @@ def check_updates():
             return None
     except Exception as e:
         log("Failed to check for updates")
+
+

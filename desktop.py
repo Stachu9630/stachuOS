@@ -10,6 +10,7 @@ from icon_loader import load_icon
 log("Everything imported")
 
 # Imagine using gitHub.it's not like im too stupid for that anyway
+#14/11 guess what. im using GitHub
 home = None
 log("home set as None")
 
@@ -48,8 +49,9 @@ def desktop_ui():
             terminal.open_cmd()
 
         def calculator_btn_pressed():
+            import calculator
             start.destroy()
-            #calculator.open_calculator()
+            calculator.open_calculator()
 
 
         def start_menu():

@@ -7,8 +7,6 @@ notification_frame = None
 def add_notification(title, message):
     notifications.append((title, message))
 
-
-
 def open_notification_frame():
     global notification_frame
     from desktop import home
@@ -39,7 +37,6 @@ def open_notification_frame():
 
 
     display_notifications()
-
 
 def display_notifications():
     global notification_frame

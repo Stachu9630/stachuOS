@@ -32,7 +32,8 @@ def back_settings_about():
     settings.deiconify()
 
 def back_settings_developer():
-    pass
+    developer_settings.destroy()
+    settings.deiconify()
 
 
 
@@ -429,6 +430,7 @@ def settings_about():
     os_developers.pack(anchor="nw", pady=30, padx=5)
 
 def settings_developer():
+    global developer_settings
     settings.withdraw()
     developer_settings = ctk.CTkToplevel()
     developer_settings.geometry("1000x1000")
